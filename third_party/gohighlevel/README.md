@@ -33,6 +33,12 @@ Auth is a HighLevel **Private Integration Token** (PIT) sent as a bearer token. 
 
 HighLevel's universal MCP endpoint does not offer Dynamic Client Registration, so a token is the supported path for clients like Cursor rather than a browser OAuth flow. HighLevel's OAuth support is delivered through per-client endpoints (`/mcp/{client}/v2`) backed by a registry of pre-registered OAuth apps, one per official client. Claude and OpenAI clients have one today; Cursor is listed as planned.
 
+## Client support
+
+This plugin is for Cursor. A pasted token is a local-client shape: Grok Bot dials MCP servers through the hosted path, where the user connects from a sign-in card rather than editing a config, so a plugin carrying `variables` has nowhere to collect them.
+
+The absent DCR is less of a blocker on Grok Bot than it is here, though, because the Grok connector can carry an OAuth client that xAI registered ahead of time — see `shopify-store`, which is Grok Bot only for exactly this reason. HighLevel's per-client registry is already that same model, so a Grok Bot build of this plugin wants a `/mcp/{client}/v2` endpoint registered for xAI, then `placement: "server"`, no `variables`, and `cursor: "never"`. That is a registration HighLevel has to grant, not a config change here.
+
 ## Before you connect
 
 - The token is created per sub-account, and a connection is scoped to that one sub-account.
