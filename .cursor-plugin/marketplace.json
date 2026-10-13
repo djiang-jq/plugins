@@ -507,6 +507,11 @@
       "name": "posthog-mcp",
       "source": "third_party/posthog-mcp",
       "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards (URL-only connector to PostHog's hosted MCP server)."
+    },
+    {
+      "name": "gohighlevel",
+      "source": "third_party/gohighlevel",
+      "description": "Work with a HighLevel (GoHighLevel) sub-account from chat: search contacts and conversations, send messages, read and update opportunities and calendars, and pull payments, blogs, and social planner posts through the LeadConnector MCP server."
     }
   ]
 }
