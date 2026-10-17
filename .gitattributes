@@ -1,0 +1,4 @@
+# Manifests are compared byte for byte by the validator and served verbatim to clients.
+* -text
+*.png binary
+*.svg text

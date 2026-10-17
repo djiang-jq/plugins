@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "example-mcp",
+  "version": "0.1.0",
+  "description": "Template for a remote MCP server plugin. Replace the name, description, and URL before publishing.",
+  "author": {
+    "name": "YOUR-ORG"
+  },
+  "license": "MIT"
+}

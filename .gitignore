@@ -1,0 +1,10 @@
+# Secrets never belong in a marketplace repo.
+.env
+.env.*
+!.env.example
+
+node_modules/
+
+.DS_Store
+*.log
+tmp/

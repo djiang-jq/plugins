@@ -1,0 +1,12 @@
+{
+  "name": "mcp-marketplace",
+  "owner": {
+    "name": "YOUR-ORG"
+  },
+  "plugins": [
+    {
+      "name": "example-mcp",
+      "source": "./plugins/example-mcp"
+    }
+  ]
+}

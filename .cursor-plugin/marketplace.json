@@ -1,0 +1,19 @@
+{
+  "name": "mcp-marketplace",
+  "owner": {
+    "name": "YOUR-ORG"
+  },
+  "metadata": {
+    "description": "Team marketplace for MCP server plugins."
+  },
+  "plugins": [
+    {
+      "name": "example-mcp",
+      "source": "plugins/example-mcp",
+      "description": "Template MCP plugin. Copy it, or run scripts/new-mcp-plugin.mjs, then delete it.",
+      "minClientVersions": {
+        "cursor": "3.13.0"
+      }
+    }
+  ]
+}

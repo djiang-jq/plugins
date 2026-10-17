@@ -1,0 +1,17 @@
+{
+  "name": "mcp-marketplace",
+  "plugins": [
+    {
+      "name": "example-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/example-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "integrations"
+    }
+  ]
+}
