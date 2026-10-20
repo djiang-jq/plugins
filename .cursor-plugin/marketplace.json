@@ -507,6 +507,11 @@
       "name": "posthog-mcp",
       "source": "third_party/posthog-mcp",
       "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards (URL-only connector to PostHog's hosted MCP server)."
+    },
+    {
+      "name": "jobber",
+      "source": "third_party/jobber",
+      "description": "Run your home service business from chat with Jobber: look up clients and properties, review requests, quotes, jobs, and visits on the schedule, and check invoices and payments."
     }
   ]
 }

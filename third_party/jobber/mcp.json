@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "jobber": {
+      "type": "http",
+      "url": "https://mcp.getjobber.com/mcp",
+      "placement": "server"
+    }
+  }
+}
