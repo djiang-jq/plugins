@@ -507,6 +507,11 @@
       "name": "posthog-mcp",
       "source": "third_party/posthog-mcp",
       "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards (URL-only connector to PostHog's hosted MCP server)."
+    },
+    {
+      "name": "lark",
+      "source": "third_party/lark",
+      "description": "Work with Lark from chat: search, create, and update Lark Docs, read and write doc comments, fetch files, and search groups, messages, and threads."
     }
   ]
 }
