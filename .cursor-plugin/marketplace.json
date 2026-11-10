@@ -499,6 +499,11 @@
       "description": "Manage social media with Buffer: draft, schedule, and publish posts across connected channels, manage the queue and ideas, and review post performance."
     },
     {
+      "name": "metricool",
+      "source": "third_party/metricool",
+      "description": "Plan and schedule social media posts with Metricool, find the best time to post, and pull analytics across your brands and networks."
+    },
+    {
       "name": "plaud",
       "source": "third_party/plaud",
       "description": "Work with your Plaud recordings: list and search meetings and voice notes, read full transcripts with speaker labels, and pull AI summaries, action items, and key topics into your workflow."
