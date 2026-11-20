@@ -4,7 +4,7 @@ All notable changes to this plugin will be documented here.
 
 ## 1.1.0
 
-- Dropped the `CLIENT_ID` and `CLIENT_SECRET` plugin variables and the MCP auth values that forwarded them. The connection keeps the `feature:mcp` scope and no longer asks users for Front developer app credentials.
+- Dropped the `CLIENT_ID` and `CLIENT_SECRET` plugin variables and the whole MCP `auth` block that forwarded them, so the plugin no longer asks users for Front developer app credentials.
 - README: replaced the developer app setup with the install-and-sign-in path.
 
 ## 1.0.0 — initial release
